@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://saffiullah1911:saffi123@cluster0.zzrq5.mongodb.net/test');
+mongoose.connect('YOUR-MONGO-LINK');
 const connection = mongoose.connection;
 
 // Once the connection is established, callback
